@@ -181,10 +181,10 @@ body {
     box-shadow: 0 1px 15px rgba(130, 158, 196, .15);
 }
 
-.header nav,
+/* .header nav,
 .nav-add {
     padding: 10px 0
-}
+} */
 
 .header .logo {
     margin-bottom: 0;
@@ -2317,7 +2317,7 @@ body:before {
 @media (max-width:768px) {
     .header {
         position: relative;
-        padding: 15px 0
+        padding: 0px;
     }
 
     .header nav.not-nav-add {

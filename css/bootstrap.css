@@ -25178,10 +25178,6 @@ a.text-danger:hover {
   color: #f8f9fa !important
 }
 
-a.text-light:focus,
-a.text-light:hover {
-  color: #cbd3da !important
-}
 
 .text-dark {
   color: #343a40 !important
