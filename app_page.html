@@ -19,6 +19,16 @@
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16627749168">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16627749168');
+    </script>
 </head>
 
 <body>
@@ -983,7 +993,7 @@
                                         <img src="img/work_img-17.svg" alt="" width="100" height="100">
                                     </div>
                                     <h4>Asana</h4>
-                                </div> 
+                                </div>
                             </div>
                             <div class="item">
                                 <div class="work_sub_box p-3 rounded-4">
@@ -2275,7 +2285,7 @@
         })
     </script>
 
-<!-- technologies-work -->
+    <!-- technologies-work -->
     <script>
         autoplay: false
         autoplayTimeout: 5000
@@ -2343,39 +2353,39 @@
 
     <!-- portfolio_devlopment_section -->
     <script>
-    autoplay: false
-    autoplayTimeout: 5000
-    autoplayHoverPause: false
-    var owl = $('.portfolio_devlopment_section .owl-carousel');
-    owl.owlCarousel({
-        items: 4,
-        loop: true,
-        margin: 10,
-        responsive: {
-            0: {
-                items: 1
+        autoplay: false
+        autoplayTimeout: 5000
+        autoplayHoverPause: false
+        var owl = $('.portfolio_devlopment_section .owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
             },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 4
-            }
-        },
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true
-    });
-    $('.play').on('click', function () {
-        owl.trigger('play.owl.autoplay', [1000])
-    })
-    $('.stop').on('click', function () {
-        owl.trigger('stop.owl.autoplay')
-    })
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
     </script>
 
-     <!-- why-vasundhara -->
-     <script>
+    <!-- why-vasundhara -->
+    <script>
         autoplay: false
         autoplayTimeout: 5000
         autoplayHoverPause: false
