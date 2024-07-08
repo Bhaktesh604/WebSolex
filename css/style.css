@@ -5012,6 +5012,12 @@ a.dropdown-item img {
     .customer_p {
         -webkit-line-clamp: 4;
     }
+    .contact_form {
+        padding: 0px;
+    }
+    .contact_form_sub { 
+        padding: 30px 15px;
+    }
 }
 
 @media (min-width:375px) {
@@ -5173,6 +5179,12 @@ a.dropdown-item img {
         top: -50%;
         left: 10%;
     }
+    .contact_form {
+        padding: 0px;
+    }
+    .contact_form_sub { 
+        padding: 30px 15px;
+    }
 }
 
 @media (max-width:575px) {
@@ -5329,6 +5341,12 @@ a.dropdown-item img {
         top: -50px;
         left: 169px;
     }
+    .contact_form {
+        padding: 0px;
+    }
+    .contact_form_sub { 
+        padding: 30px 15px;
+    }
 }
 
 @media (min-width:576px) {
@@ -5472,6 +5490,12 @@ a.dropdown-item img {
         height: 60px;
         top: -50px;
         left: 250px;
+    }
+    .contact_form {
+        padding: 0px;
+    }
+    .contact_form_sub { 
+        padding: 30px 15px;
     }
 }
 
@@ -5845,6 +5869,13 @@ a.dropdown-item img {
         height: 6px;
         top: 98px;
         left: -60px;
+    }
+    .contact_form {
+        padding: 150px 100px 100px;
+    }
+    .contact_form_sub {
+        background-color: #f0f0f0;
+        padding: 50px 30px;
     }
 }
 
