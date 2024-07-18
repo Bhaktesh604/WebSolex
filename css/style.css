@@ -6042,3 +6042,41 @@ a.dropdown-item img {
         left: -90px;
     }
 }
+
+
+.thank-you-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.thank-you-card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-card h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.thank-you-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.thank-you-container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.thank-you-container .btn:hover {
+    background-color: #0056b3;
+}
